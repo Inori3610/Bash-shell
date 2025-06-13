@@ -1,0 +1,20 @@
+touch <ten_file> : Tao moi 1 file them ten file
+vi <ten_file> : Tao moi giong nhu touch
+rm <ten_file> : Xoa 1 tep tin giong ten file
+rm -r <directory_name> : Xoa thu muc va noi dung ben trong thu muc
+cat <ten_file> : Doc noi dung cua ten_file
+vim <ten_file> : Dung VIM de chinh sua noi dung van ban
+unzip <zip_file> : dung de giai nen file .zip
+chmod 777 <ten_file> : chinh sua file chay full quyen doc viet & thuc hien
+mv <ten_file_cu> <ten_file_moi> : doi ten hoac di chuyen file
+stat <ten_file> : hien thi chi tiet noi dung ten_file
+ls : hien thi tat ca cac file va thu muc hien dang o
+ls -l : hien thi chi tiet quyen cua cac tap tin va thu muc o duong dan
+ls -a : hien thi tat ca cac file bao gom ca file an
+pwd : hien thi duong dan cua thu muc dang o
+cd <ten_thu_muc> : Vao thu muc chi dinh
+cd : Quay ve thu muc goc
+cp <ten_file> <duong_dan> : Copy file dan duong dan chi dinh
+find / -name <*.duoi_file> : Tim tat ca duoi file chi dinh trong HT
+mkdir <ten_thu_muc> : Tao thu muc voi ten thu muc chi dinh
+

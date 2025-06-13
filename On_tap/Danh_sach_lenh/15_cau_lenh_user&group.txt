@@ -1,0 +1,17 @@
+sudo useradd <username> : Them user moi vao HT khong co thu muc /home
+sudo passwd <username> : Dat hoac sua mk cua user chi dinh
+sudo usermod -l <n_username> <o_username> : doi ten tk nguoi dung
+sudo usermod -aG <group_name> <username> : them nguoi dung vao 1 nhom
+sudo deluser <username> : Xoa nguoi dung ra khoi HT
+id <username> : hien thi ID cua nguoi dung va nhom nguoi dung thuoc ve
+whoami : hien thi username cua nguoi dung hien tai dang nhap
+who : hien thi danh sach nguoi dung hien dang dang nhap HT
+w : giong who nhung chi tiet hon
+cat /etc/passwd : Hien thi tat ca user co trong HT
+cat /etc/group : Hien thi tat ca cac nhom co trong HT
+sudo groupadd <group_name> : Them 1 group moi
+sudo groupdel <group_name> : Xoa 1 group ton tai
+sudo groupmod - n <n_groupname> <o_groupname> : Doi ten nhom nguoi dung
+sudo gpasswd -a <username> <group_name> : them nguoi dung vao nhom chi dinh
+sudo gpasswd -d <username> <group_name> : Xoa nguoi dung trong nhom
+

@@ -1,0 +1,9 @@
+ifconfig : hien thi dia chi IP cua may
+iwconfig : hien thi thong tin ket noi mang khong day
+ping <ten_mien> : Kiem tra ket noi voi may chu hoac dia chi IP 
+ip a : Hien thi thong tin mang hien tai
+ip address : tuong tu ip a
+sudo ufw status : Kiem tra trang thai tuong lua
+ss : hien thi trang thai danh sach cong dang mo va dich vu mang 
+
+
