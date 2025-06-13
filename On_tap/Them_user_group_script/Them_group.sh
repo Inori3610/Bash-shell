@@ -24,6 +24,8 @@ if [[ "$choice" == "Y" || "$choice" == "y" ]]; then
       sudo useradd -m $username
       sudo passwd $username
       echo "Da tao user $username thanh cong"
+      sudo usermod -aG "$groupname" "$username"
+      echo "Da them $username vao $group"
     fi
 
     read -p "Ban co muon them user khac vao nua khong (Y/N)" choice
